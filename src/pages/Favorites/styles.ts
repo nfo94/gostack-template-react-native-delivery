@@ -18,7 +18,6 @@ export const Container = styled.View`
 export const Header = styled.View`
   padding: 60px 24px 60px;
   background: #c72828;
-
   display: flex;
   align-items: center;
 `;
@@ -40,7 +39,6 @@ export const FoodsContainer = styled.View`
 export const FoodList = styled(FlatList as new () => FlatList<Food>)`
   flex: 1;
   padding: 0 20px;
-
   margin-top: 16px;
 `;
 
@@ -48,7 +46,6 @@ export const Food = styled.TouchableOpacity`
   display: flex;
   flex-direction: row;
   align-items: center;
-
   background: #f0f0f5;
   border-radius: 8px;
 

@@ -54,6 +54,7 @@ export const CategoryItem = styled.TouchableOpacity<CategoryItemProps>`
   align-items: center;
   justify-content: space-between;
   text-align: center;
+
   ${props =>
     props.isSelected &&
     css`
